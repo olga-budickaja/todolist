@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>to do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <h1 class="list__title">To Do List</h1>
+            <div class="list__video">
+                <div class="list__video-wrapp">
+                    <video autoplay="" loop="true" muted="" class="embed-responsive" playsline="" tabindex="-1" preload="" poster="img/background.jpg" data-loader="av" aria-label="Video Player">
+                        <source src="video/background.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="list__input">
+                <input type="text" id="list__input-task" autofocus>
+                <button class="btn" id="list__input-button">Add Task</button>
+            </div>
+            <div class="list__buttons">
+                <button class="btn" id="list__buttons-all">Show all</button>
+                <button class="btn" id="list__buttons-incomplete">Show incomplete</button>
+            </div>
+            <div class="list__task">
+                <p id="list__task-start">No new tasks</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
