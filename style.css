@@ -11,7 +11,6 @@
 }
 
 body {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +42,6 @@ body {
 
 .list {
     width: 720px;
-    min-height: calc(100vh - 120px);
     margin: 50px auto;
     padding: 20px 40px;
     background: linear-gradient(120deg, rgb(248, 251, 250), rgb(240, 243, 243));
